@@ -1,0 +1,69 @@
+.password-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #9ba9eb;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.details-container {
+  display: flex;
+  align-items: center;
+}
+.initial-text {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  padding: 10px;
+  padding-top: 6px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+}
+
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.website-name {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin: 0px;
+  width: 50%;
+}
+
+.username {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.stars-image {
+  width: 50%;
+  margin-top: 12px;
+}
+
+.password {
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 65px;
+}
+.delete-icon {
+  width: 100%;
+}
